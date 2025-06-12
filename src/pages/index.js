@@ -17,6 +17,7 @@ const HomePage = () => {
         <StaticImage
         src="../images/DWI_get_started.png"        
         alt="Digital Wealth Insights"
+        loading="eager"
         />  
      </Layout>          
    
