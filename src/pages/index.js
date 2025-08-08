@@ -18,6 +18,7 @@ const HomePage = () => {
         src="../images/DWI_get_started.png"        
         alt="Digital Wealth Insights"
         loading="eager"
+        placeholder="tracedSVG"               
         />  
      </Layout>          
    

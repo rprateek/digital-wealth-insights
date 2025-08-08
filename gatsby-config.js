@@ -3,7 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Digital Wealth Insights`,
+    description: `Your source for the latest in digital wealth management.`,
+    siteUrl: `https://digitalwealthinsights.io/`,
   },
   plugins: ['gatsby-plugin-image','gatsby-plugin-sharp'],
 }
