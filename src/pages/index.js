@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const HomePage = () => {
   return (
-    <Layout pageHeading={"Home Page"} pageTitle={"Digital Wealth Insights"}>
+    <Layout pageHeading={"Home Page"} pageTitle={"Home Page"}>
       <p>Your source for the latest in digital wealth management.</p>  
       <StaticImage
         //src="../images/digital-wealth-insights.jpg"
