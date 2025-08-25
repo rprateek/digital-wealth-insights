@@ -12,7 +12,6 @@ const Blog = ({data, children}) => {
         <p>Welcome to our blog! Here you will find the latest insights
            and updates in digital wealth management.</p>
         <p>Check out our latest posts below:</p> 
-        
             {data.allMdx.nodes.map((node) => (
                 <article key={node.id}> 
                 <h2>{node.frontmatter.title}</h2>
@@ -29,7 +28,7 @@ const Blog = ({data, children}) => {
 }
 export const query = graphql`
   query {
-    allMdx(sort: {frontmatter: {date: DESC}}) {
+    allMdx {
       nodes {
         frontmatter {
           title
